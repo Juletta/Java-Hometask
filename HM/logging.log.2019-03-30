@@ -1,0 +1,115 @@
+2019-03-30 11:03:40 INFO  HelpPacking:48 - Packing-net   Color packing- RED   Number- 0   Price- 2.85   Cost- 0.0
+2019-03-30 11:03:40 INFO  HelpTape:67 - Tape-satinTape   Color tape- BEIDGE   Length- 0cm.   Price- 0.01   Cost- 0.0
+2019-03-30 11:03:40 INFO  BouquetManager:46 - Cost bouquet-0.0
+2019-03-30 11:03:40 INFO  BouquetManager:65 - Sort flowers by freshness:
+2019-03-30 11:03:40 INFO  BouquetManager:85 - No flowers have a stem length from 30 to 80
+2019-03-30 11:05:42 INFO  Flower:105 - Flower name is lily Color CORAL Length 34 Price 3.67 Date delivary 18
+2019-03-30 11:05:42 INFO  Bouquet:77 - Number -5
+2019-03-30 11:05:42 INFO  Flower:105 - Flower name is iris Color PINK Length 73 Price 2.69 Date delivary 22
+2019-03-30 11:05:42 INFO  Bouquet:77 - Number -19
+2019-03-30 11:05:42 INFO  HelpPacking:48 - Packing-net   Color packing- LILAC   Number- 0   Price- 1.33   Cost- 0.0
+2019-03-30 11:05:42 INFO  HelpTape:67 - Tape-paperTape   Color tape- LILAC   Length- 0cm.   Price- 0.01   Cost- 0.0
+2019-03-30 11:05:42 INFO  BouquetManager:46 - Cost bouquet-69.46
+2019-03-30 11:05:42 INFO  BouquetManager:65 - Sort flowers by freshness:
+2019-03-30 11:05:42 INFO  Flower:105 - Flower name is lily Color CORAL Length 34 Price 3.67 Date delivary 18
+2019-03-30 11:05:42 INFO  Bouquet:77 - Number -5
+2019-03-30 11:05:42 INFO  Flower:105 - Flower name is iris Color PINK Length 73 Price 2.69 Date delivary 22
+2019-03-30 11:05:42 INFO  Bouquet:77 - Number -19
+2019-03-30 11:05:42 INFO  BouquetManager:79 - Found a flower having a stem length from 30 to 80:
+2019-03-30 11:05:42 INFO  Flower:105 - Flower name is lily Color CORAL Length 34 Price 3.67 Date delivary 18
+2019-03-30 11:05:42 INFO  BouquetManager:79 - Found a flower having a stem length from 30 to 80:
+2019-03-30 11:05:42 INFO  Flower:105 - Flower name is iris Color PINK Length 73 Price 2.69 Date delivary 22
+2019-03-30 11:16:02 INFO  Flower:105 - Flower name is rose Color BEIDGE Length 93 Price 5.66 Date delivary 24
+2019-03-30 11:16:02 INFO  Bouquet:78 - Number -42
+2019-03-30 11:16:02 INFO  Flower:105 - Flower name is peony Color ORANGE Length 66 Price 2.36 Date delivary 25
+2019-03-30 11:16:02 INFO  Bouquet:78 - Number -2
+2019-03-30 11:16:02 INFO  HelpPacking:48 - Packing-net   Color packing- COPPER   Number- 0   Price- 1.96   Cost- 0.0
+2019-03-30 11:16:02 INFO  HelpTape:67 - Tape-satinTape   Color tape- YELLOW   Length- 0cm.   Price- 0.03   Cost- 0.0
+2019-03-30 11:16:02 INFO  BouquetManager:46 - Cost bouquet-242.44
+2019-03-30 11:16:02 INFO  BouquetManager:65 - Sort flowers by freshness:
+2019-03-30 11:16:02 INFO  Flower:105 - Flower name is rose Color BEIDGE Length 93 Price 5.66 Date delivary 24
+2019-03-30 11:16:02 INFO  Bouquet:78 - Number -42
+2019-03-30 11:16:02 INFO  Flower:105 - Flower name is peony Color ORANGE Length 66 Price 2.36 Date delivary 25
+2019-03-30 11:16:02 INFO  Bouquet:78 - Number -2
+2019-03-30 11:16:02 INFO  BouquetManager:79 - Found a flower having a stem length from 30 to 80:
+2019-03-30 11:16:02 INFO  Flower:105 - Flower name is peony Color ORANGE Length 66 Price 2.36 Date delivary 25
+2019-03-30 11:27:13 INFO  Flower:105 - Flower name is rose Color GOLDEN Length 85 Price 2.88 Date delivary 30
+2019-03-30 11:27:13 INFO  Bouquet:78 - Number -46
+2019-03-30 11:27:13 INFO  HelpPacking:48 - Packing-paper   Color packing- EMERALD   Number- 0   Price- 1.36   Cost- 0.0
+2019-03-30 11:27:13 INFO  HelpTape:67 - Tape-rope   Color tape- BEIDGE   Length- 0cm.   Price- 0.02   Cost- 0.0
+2019-03-30 11:27:13 INFO  BouquetManager:46 - Cost bouquet-132.48
+2019-03-30 11:27:13 INFO  BouquetManager:65 - Sort flowers by freshness:
+2019-03-30 11:27:13 INFO  Flower:105 - Flower name is rose Color GOLDEN Length 85 Price 2.88 Date delivary 30
+2019-03-30 11:27:13 INFO  Bouquet:78 - Number -46
+2019-03-30 11:27:13 INFO  BouquetManager:85 - No flowers have a stem length from 30 to 80
+2019-03-30 11:34:44 INFO  Flower:105 - Flower name is lily Color EMERALD Length 100 Price 4.37 Date delivary 28
+2019-03-30 11:34:44 INFO  Bouquet:78 - Number -46
+2019-03-30 11:34:44 INFO  Flower:105 - Flower name is lily Color PINK Length 25 Price 5.61 Date delivary 17
+2019-03-30 11:34:44 INFO  Bouquet:78 - Number -42
+2019-03-30 11:34:44 INFO  Flower:105 - Flower name is peony Color PURPLE Length 24 Price 6.07 Date delivary 23
+2019-03-30 11:34:44 INFO  Bouquet:78 - Number -26
+2019-03-30 11:34:44 INFO  HelpPacking:48 - Packing-net   Color packing- BEIDGE   Number- 0   Price- 2.74   Cost- 0.0
+2019-03-30 11:34:44 INFO  HelpTape:67 - Tape-rope   Color tape- BEIDGE   Length- 0cm.   Price- 0.02   Cost- 0.0
+2019-03-30 11:34:44 INFO  BouquetManager:46 - Cost bouquet-594.46
+2019-03-30 11:34:44 INFO  BouquetManager:65 - Sort flowers by freshness:
+2019-03-30 11:34:44 INFO  Flower:105 - Flower name is lily Color EMERALD Length 100 Price 4.37 Date delivary 17
+2019-03-30 11:34:44 INFO  Bouquet:78 - Number -46
+2019-03-30 11:34:44 INFO  Flower:105 - Flower name is lily Color PINK Length 25 Price 5.61 Date delivary 23
+2019-03-30 11:34:44 INFO  Bouquet:78 - Number -42
+2019-03-30 11:34:44 INFO  Flower:105 - Flower name is peony Color PURPLE Length 24 Price 6.07 Date delivary 28
+2019-03-30 11:34:44 INFO  Bouquet:78 - Number -26
+2019-03-30 11:34:44 INFO  BouquetManager:85 - No flowers have a stem length from 30 to 80
+2019-03-30 11:36:06 INFO  Flower:105 - Flower name is rose Color PINK Length 30 Price 2.44 Date delivary 28
+2019-03-30 11:36:06 INFO  Bouquet:78 - Number -36
+2019-03-30 11:36:06 INFO  Flower:105 - Flower name is iris Color LILAC Length 28 Price 2.55 Date delivary 24
+2019-03-30 11:36:06 INFO  Bouquet:78 - Number -41
+2019-03-30 11:36:06 INFO  Flower:105 - Flower name is iris Color YELLOW Length 75 Price 4.21 Date delivary 18
+2019-03-30 11:36:06 INFO  Bouquet:78 - Number -30
+2019-03-30 11:36:06 INFO  HelpPacking:48 - Packing-net   Color packing- GOLDEN   Number- 0   Price- 1.42   Cost- 0.0
+2019-03-30 11:36:06 INFO  HelpTape:67 - Tape-satinTape   Color tape- COPPER   Length- 0cm.   Price- 0.03   Cost- 0.0
+2019-03-30 11:36:06 INFO  BouquetManager:46 - Cost bouquet-318.69
+2019-03-30 11:36:06 INFO  BouquetManager:65 - Sort flowers by freshness:
+2019-03-30 11:36:06 INFO  Flower:105 - Flower name is rose Color PINK Length 30 Price 2.44 Date delivary 18
+2019-03-30 11:36:06 INFO  Bouquet:78 - Number -36
+2019-03-30 11:36:06 INFO  Flower:105 - Flower name is iris Color LILAC Length 28 Price 2.55 Date delivary 24
+2019-03-30 11:36:06 INFO  Bouquet:78 - Number -41
+2019-03-30 11:36:06 INFO  Flower:105 - Flower name is iris Color YELLOW Length 75 Price 4.21 Date delivary 28
+2019-03-30 11:36:06 INFO  Bouquet:78 - Number -30
+2019-03-30 11:36:06 INFO  BouquetManager:79 - Found a flower having a stem length from 30 to 80:
+2019-03-30 11:36:06 INFO  Flower:105 - Flower name is rose Color PINK Length 30 Price 2.44 Date delivary 18
+2019-03-30 11:36:06 INFO  BouquetManager:79 - Found a flower having a stem length from 30 to 80:
+2019-03-30 11:36:06 INFO  Flower:105 - Flower name is iris Color YELLOW Length 75 Price 4.21 Date delivary 28
+2019-03-30 11:44:59 INFO  Flower:105 - Flower name is rose Color CORAL Length 77 Price 6.82 Date delivary 18
+2019-03-30 11:44:59 INFO  Bouquet:78 - Number -22
+2019-03-30 11:44:59 INFO  Flower:105 - Flower name is chrysanthemum Color BEIDGE Length 43 Price 4.75 Date delivary 28
+2019-03-30 11:44:59 INFO  Bouquet:78 - Number -32
+2019-03-30 11:44:59 INFO  HelpPacking:48 - Packing-net   Color packing- YELLOW   Number- 2   Price- 2.44   Cost- 4.88
+2019-03-30 11:44:59 INFO  HelpTape:67 - Tape-rope   Color tape- BEIDGE   Length- 32cm.   Price- 0.02   Cost- 0.64
+2019-03-30 11:44:59 INFO  BouquetManager:46 - Cost bouquet-307.56
+2019-03-30 11:44:59 INFO  BouquetManager:65 - Sort flowers by freshness:
+2019-03-30 11:44:59 INFO  Flower:105 - Flower name is rose Color CORAL Length 77 Price 6.82 Date delivary 18
+2019-03-30 11:44:59 INFO  Bouquet:78 - Number -22
+2019-03-30 11:44:59 INFO  Flower:105 - Flower name is chrysanthemum Color BEIDGE Length 43 Price 4.75 Date delivary 28
+2019-03-30 11:44:59 INFO  Bouquet:78 - Number -32
+2019-03-30 11:44:59 INFO  BouquetManager:79 - Found a flower having a stem length from 30 to 80:
+2019-03-30 11:44:59 INFO  Flower:105 - Flower name is rose Color CORAL Length 77 Price 6.82 Date delivary 18
+2019-03-30 11:44:59 INFO  BouquetManager:79 - Found a flower having a stem length from 30 to 80:
+2019-03-30 11:44:59 INFO  Flower:105 - Flower name is chrysanthemum Color BEIDGE Length 43 Price 4.75 Date delivary 28
+2019-03-30 18:23:45 INFO  Flower:107 - Flower name is lily Color CORAL Length 26 Price 5.82 Date delivary 17
+2019-03-30 18:23:45 INFO  Bouquet:98 - Number -23
+2019-03-30 18:23:45 INFO  Flower:107 - Flower name is rose Color YELLOW Length 89 Price 6.23 Date delivary 21
+2019-03-30 18:23:45 INFO  Bouquet:98 - Number -22
+2019-03-30 18:23:45 INFO  Flower:107 - Flower name is lily Color YELLOW Length 32 Price 2.46 Date delivary 21
+2019-03-30 18:23:45 INFO  Bouquet:98 - Number -17
+2019-03-30 18:23:45 INFO  HelpPacking:48 - Packing-net   Color packing- YELLOW   Number- 12   Price- 2.92   Cost- 35.04
+2019-03-30 18:23:45 INFO  HelpTape:67 - Tape-satinTape   Color tape- CORAL   Length- 174cm.   Price- 0.02   Cost- 3.48
+2019-03-30 18:23:45 INFO  BouquetManager:46 - Cost bouquet-351.26
+2019-03-30 18:23:45 INFO  BouquetManager:65 - Sort flowers by freshness:
+2019-03-30 18:23:45 INFO  Flower:107 - Flower name is lily Color CORAL Length 26 Price 5.82 Date delivary 17
+2019-03-30 18:23:45 INFO  Bouquet:98 - Number -23
+2019-03-30 18:23:45 INFO  Flower:107 - Flower name is rose Color YELLOW Length 89 Price 6.23 Date delivary 21
+2019-03-30 18:23:45 INFO  Bouquet:98 - Number -22
+2019-03-30 18:23:45 INFO  Flower:107 - Flower name is lily Color YELLOW Length 32 Price 2.46 Date delivary 21
+2019-03-30 18:23:45 INFO  Bouquet:98 - Number -17
+2019-03-30 18:23:45 INFO  BouquetManager:79 - Found a flower having a stem length from 30 to 80:
+2019-03-30 18:23:45 INFO  Flower:107 - Flower name is lily Color YELLOW Length 32 Price 2.46 Date delivary 21

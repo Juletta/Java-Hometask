@@ -1,0 +1,14 @@
+2019-03-31 15:37:59 INFO  Flower:106 - Flower name is chrysanthemum Color RED Length 33 Price 3.09 Date delivary 18
+2019-03-31 15:37:59 INFO  Bouquet:98 - Number -2
+2019-03-31 15:37:59 INFO  Flower:106 - Flower name is lily Color LILAC Length 23 Price 6.79 Date delivary 27
+2019-03-31 15:37:59 INFO  Bouquet:98 - Number -29
+2019-03-31 15:37:59 INFO  HelpPacking:48 - Packing-paper   Color packing- RED   Number- 7   Price- 2.57   Cost- 17.99
+2019-03-31 15:37:59 INFO  HelpTape:67 - Tape-paperTape   Color tape- YELLOW   Length- 98cm.   Price- 0.02   Cost- 1.96
+2019-03-31 15:37:59 INFO  BouquetManager:46 - Cost bouquet-223.04
+2019-03-31 15:37:59 INFO  BouquetManager:65 - Sort flowers by freshness:
+2019-03-31 15:37:59 INFO  Flower:106 - Flower name is chrysanthemum Color RED Length 33 Price 3.09 Date delivary 18
+2019-03-31 15:37:59 INFO  Bouquet:98 - Number -2
+2019-03-31 15:37:59 INFO  Flower:106 - Flower name is lily Color LILAC Length 23 Price 6.79 Date delivary 27
+2019-03-31 15:37:59 INFO  Bouquet:98 - Number -29
+2019-03-31 15:37:59 INFO  BouquetManager:79 - Found a flower having a stem length from 30 to 80:
+2019-03-31 15:37:59 INFO  Flower:106 - Flower name is chrysanthemum Color RED Length 33 Price 3.09 Date delivary 18

@@ -1,0 +1,24 @@
+2019-03-29 21:05:04 INFO  Flower:105 - Flower name is chrysanthemum Color ORANGE Length 42 Price 5.51 Date delivary 24
+2019-03-29 21:05:04 INFO  Bouquet:64 - Number -13
+2019-03-29 21:05:04 INFO  Flower:105 - Flower name is lily Color COPPER Length 100 Price 3.87 Date delivary 18
+2019-03-29 21:05:04 INFO  Bouquet:64 - Number -17
+2019-03-29 21:05:04 INFO  HelpPacking:48 - Packing-net   Color packing- GOLDEN   Number- 4   Price- 1.89   Cost- 7.56
+2019-03-29 21:05:04 INFO  HelpTape:67 - Tape-satinTape   Color tape- YELLOW   Length- 60cm.   Price- 0.01   Cost- 0.6
+2019-03-29 21:05:04 INFO  BouquetManager:45 - Cost bouquet-145.58
+2019-03-29 21:05:04 INFO  BouquetManager:64 - Sort flowers by freshness:
+2019-03-29 21:05:04 INFO  Flower:105 - Flower name is chrysanthemum Color ORANGE Length 42 Price 5.51 Date delivary 18
+2019-03-29 21:05:04 INFO  Bouquet:64 - Number -13
+2019-03-29 21:05:04 INFO  Flower:105 - Flower name is lily Color COPPER Length 100 Price 3.87 Date delivary 24
+2019-03-29 21:05:04 INFO  Bouquet:64 - Number -17
+2019-03-29 21:05:04 INFO  BouquetManager:78 - Found a flower having a stem length from 30 to 80:
+2019-03-29 21:05:04 INFO  Flower:105 - Flower name is chrysanthemum Color ORANGE Length 42 Price 5.51 Date delivary 18
+2019-03-29 21:05:32 INFO  Flower:105 - Flower name is chrysanthemum Color ORANGE Length 34 Price 6.53 Date delivary 21
+2019-03-29 21:05:32 INFO  Bouquet:64 - Number -50
+2019-03-29 21:05:32 INFO  HelpPacking:48 - Packing-paper   Color packing- COPPER   Number- 7   Price- 1.68   Cost- 11.76
+2019-03-29 21:05:32 INFO  HelpTape:67 - Tape-satinTape   Color tape- GOLDEN   Length- 100cm.   Price- 0.03   Cost- 3.0
+2019-03-29 21:05:33 INFO  BouquetManager:45 - Cost bouquet-341.26
+2019-03-29 21:05:33 INFO  BouquetManager:64 - Sort flowers by freshness:
+2019-03-29 21:05:33 INFO  Flower:105 - Flower name is chrysanthemum Color ORANGE Length 34 Price 6.53 Date delivary 21
+2019-03-29 21:05:33 INFO  Bouquet:64 - Number -50
+2019-03-29 21:05:33 INFO  BouquetManager:78 - Found a flower having a stem length from 30 to 80:
+2019-03-29 21:05:33 INFO  Flower:105 - Flower name is chrysanthemum Color ORANGE Length 34 Price 6.53 Date delivary 21

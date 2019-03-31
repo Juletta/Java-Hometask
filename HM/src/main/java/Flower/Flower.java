@@ -1,0 +1,113 @@
+package Flower;
+
+import java.util.Calendar;
+import java.util.Random;
+import org.apache.log4j.*;
+import static Accessories.Accessories.*;
+
+public abstract class Flower {
+
+    private static final Logger logger = Logger.getLogger(Flower.class);
+    private double price;
+    private String name;
+    private int numberDelivary;
+    private int stemLength;
+    private Color color;
+    protected String[] incompatible;
+
+    public Flower()
+    {
+        this.price = 0;
+        this.name = null;
+        this.numberDelivary=0;
+        this.stemLength=0;
+        this.color=null;
+        this.incompatible=null;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getNumberDelivary() {
+        return numberDelivary;
+    }
+
+    public void setNumberDelivary(int numberDelivary) {
+        this.numberDelivary = numberDelivary;
+    }
+
+    public int getStemLength() {
+        return stemLength;
+    }
+
+    public void setStemLength(int stemLength) {
+        if (stemLength>10 && stemLength<100) {
+            this.stemLength = stemLength;
+        }
+    }
+
+    public String[] getIncompatible() {
+        return incompatible;
+    }
+
+    public void setIncompatible() {
+        this.incompatible = incompatible;
+    }
+
+    public Color getColor() {
+        return color;
+    }
+
+    public void setColor(Color color) {
+        this.color = color;
+    }
+
+
+    public void Initializ()
+    {
+        Random rnd=new Random();
+        try {
+            Color[] arrayColor = Color.values();
+            int i = rnd.nextInt(((arrayColor.length - 1) + 0) + 1) + 0;
+            setColor(arrayColor[i]);
+            color = arrayColor[i];
+            price = randomDouble(2, 7);
+            name = "flower";
+            Calendar now = Calendar.getInstance();
+            numberDelivary = rnd.nextInt((now.get(Calendar.DATE) - (now.get(Calendar.DATE) - 15)) + 1) + (now.get(Calendar.DATE) - 15);
+            stemLength = randomInt(20, 100);
+        }
+        catch (IndexOutOfBoundsException indoute)
+        {
+            logger.error(indoute);
+        }
+        catch (NullPointerException nulex)
+        {
+            logger.error(nulex.getMessage());
+        }
+    }
+
+    public void printInf(String name)
+    {
+        try {
+           logger.info("Flower name is " + name + " Color " + color + " Length " + stemLength + " Price " + price + " Date delivary " + numberDelivary);
+        }
+        catch (NullPointerException nulex)
+        {
+            logger.error(nulex.getMessage());
+        }
+    }
+}
