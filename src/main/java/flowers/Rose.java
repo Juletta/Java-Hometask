@@ -1,4 +1,4 @@
-package Flower;
+package flowers;
 
 public class Rose extends Flower {
     private static String name = "Rose";

@@ -7,8 +7,8 @@ public class Main {
         FormBouquet bouquet=new FormBouquet();
         bouquet.getBouquet().createBouquet();
         BouquetManager manager =new BouquetManager();
-        bouquet.printFormBouquet();
-        manager.costCalculation(bouquet);
+      //  bouquet.printFormBouquet();
+        manager.getBouquetCost(bouquet);
         manager.sortByFreshness(bouquet);
         manager.flowerSearch(bouquet,30,80);
     }

@@ -27,7 +27,7 @@ public class BouquetTest {
         }
         bouquet.addFlower(rose,num);
         int expected=bouquets.size();
-        assertEquals(expected,bouquet.getBouquet().size());
+        assertEquals(expected,bouquet.getFlowers().size());
     }
 
     @Before

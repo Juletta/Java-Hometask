@@ -14,53 +14,51 @@ import static Accessories.Accessories.randomInt;
 final public class Bouquet extends Flower{
 
     private static final Logger logger = Logger.getLogger(Bouquet.class);
-    private ArrayList<Flower> bouquet;
+    private ArrayList<Flower> flowers = new ArrayList<Flower>();
     private int numberOfTypesF;
     private int[] numberFlowers;
     private int number;
     private Flower[] namesFlowers;
 
-    public Bouquet() {
-        this.number=0;
-        this.bouquet = new ArrayList<Flower>();
-        this.numberOfTypesF = 0;
-        this.numberFlowers=new int[numberOfTypesF];
-        this.namesFlowers=new Flower[numberOfTypesF];
+    public Bouquet(double price, int numberDelivery, Color color, int stemLength) {
+        super(price, numberDelivery, color, stemLength);
     }
 
-    private Flower typeFlower()
+
+    private Flower generateTypeFlower()
     {
         Random rnd = new Random();
         int n=rnd.nextInt((5-1)+1)+1;
         switch (n)
         {
+            //todo: create random parameters in constructor
             case 1: {
-                Flower peony=new Peony();
+                Flower peony=new Peony(15.3,1, Color.BEIDGE,40);
                 peony.Initializ();
                 return peony;
             }
             case 2:{
-                Flower iris=new Iris();
+                Flower iris=new Iris(15.3,1, Color.BEIDGE,40);
                 iris.Initializ();
                 return iris;
             }
             case 3:{
-                Flower chrysanthemum=new Chrysanthemum();
+                Flower chrysanthemum=new Chrysanthemum(15.3,1, Color.BEIDGE,40);
                 chrysanthemum.Initializ();
                 return chrysanthemum;
             }
             case 4:{
-                Flower lily=new Lily();
+                Flower lily=new Lily(15.3,1, Color.BEIDGE,40);
                 lily.Initializ();
                 return lily;
             }
             case 5:{
-                Flower rose=new Rose();
+                Flower rose=new Rose(15.3,1, Color.BEIDGE,40);
                 rose.Initializ();
                 return rose;
             }
         }
-        return typeFlower();
+        return generateTypeFlower();
     }
 
     public void createBouquet()
@@ -71,8 +69,8 @@ final public class Bouquet extends Flower{
         int i = 0;
         while (i < numberOfTypesF) {
             numberFlowers[i]=randomInt(1,50);
-            addFlower(namesFlowers[i]=typeFlower(), numberFlowers[i]);
-            namesFlowers[i].setName(typeFlower().getName());
+            addFlower(namesFlowers[i]= generateTypeFlower(), numberFlowers[i]);
+            namesFlowers[i].setName(generateTypeFlower().getName());
             i++;
         }
     }
@@ -80,7 +78,7 @@ final public class Bouquet extends Flower{
     public void addFlower(Flower flower, int num)
     {
         for (int i=0;i<num;i++) {
-            bouquet.add(i,flower);
+            flowers.add(i,flower);
         }
     }
 
@@ -93,7 +91,7 @@ final public class Bouquet extends Flower{
         }
     }
 
-    public boolean checkNumber()
+    public void checkNumber()
     {
         number=0;
         for (int i=0;i<getNumberOfTypesF();i++)
@@ -101,21 +99,15 @@ final public class Bouquet extends Flower{
             number+=getNumberFlowers()[i];
         }
         setNumber(number);
-        if (number%2==0)
-        {
-            return false;
-        }
-        else {
-            return true;
-        }
+
     }
 
-    public ArrayList<Flower> getBouquet() {
-        return bouquet;
+    public ArrayList<Flower> getFlowers() {
+        return flowers;
     }
 
-    public void setBouquet(ArrayList<Flower> flowers) {
-        this.bouquet = flowers;
+    public void setFlowers(ArrayList<Flower> flowers) {
+        this.flowers = flowers;
     }
 
     public int getNumberOfTypesF() {return numberOfTypesF;}
@@ -149,7 +141,7 @@ final public class Bouquet extends Flower{
     @Override
     public String toString() {
         return "Bouquet\n" +
-                "bouquet=" + bouquet +
+                "flowers=" + flowers +
                 ", numberOfTypesF=" + numberOfTypesF +
                 ", numberFlowers=" + Arrays.toString(numberFlowers) +
                 ", number=" + number +

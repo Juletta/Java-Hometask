@@ -1,13 +1,14 @@
 package Accessories.Tape;
 
 import Accessories.Accessories;
+import Flower.Color;
 
 public class Tape extends Accessories {
     private int number;
 
-    public Tape()
-    {
-        this.number=0;
+    public Tape(double price, Color color, String name, int number) {
+        super(price, color, name);
+        this.number = number;
     }
 
     public int getNumber() {

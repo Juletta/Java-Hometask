@@ -1,9 +1,9 @@
-package Flower;
+package flowers;
+
+import org.apache.log4j.*;
 
 import java.util.Calendar;
 import java.util.Random;
-
-import org.apache.log4j.*;
 
 import static Accessories.Accessories.*;
 
