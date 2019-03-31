@@ -4,6 +4,7 @@ import Flower.*;
 
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Random;
 import org.apache.log4j.*;
 
@@ -143,5 +144,16 @@ final public class Bouquet extends Flower{
     }
     public void setNumber(int number) {
         this.number = number;
+    }
+
+    @Override
+    public String toString() {
+        return "Bouquet\n" +
+                "bouquet=" + bouquet +
+                ", numberOfTypesF=" + numberOfTypesF +
+                ", numberFlowers=" + Arrays.toString(numberFlowers) +
+                ", number=" + number +
+                ", namesFlowers=" + Arrays.toString(namesFlowers) +
+                '}';
     }
 }
